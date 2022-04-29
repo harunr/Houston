@@ -1,0 +1,351 @@
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+ul{ 
+    list-style: none;
+}
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+.clear:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+a img{
+    border:0;
+}
+a,input,select,textarea{
+    outline:none;
+}
+input::-moz-focus-inner{
+    border:0; padding: 0;
+}
+
+img{
+    float: left;
+}
+
+/* Selection colours (easy to forget) */
+
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+a{text-decoration: none; display: inline-block;}
+/*a:hover{text-decoration: underline; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out;}*/
+
+
+
+/*		Default Layout 
+-------------------------------------------------------------------------------
+*/
+
+body {background: rgb(255,255,255); color: #333333; -webkit-text-size-adjust: 100%; -moz-text-size-adjust:100%; -moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased; overflow-x: hidden; overflow-y:auto; font-family: 'Montserrat', sans-serif; font-weight: 300; font-style: normal; font-size: 18px; line-height: 27px;}
+
+*{-webkit-box-sizing: border-box;-moz-box-sizing:border-box; box-sizing: border-box;}
+
+/* Beginning common style */
+h1{font-size: 48px; line-height: 52px; font-weight: 700;}
+h2,h3{font-size: 34px; line-height: 38px;}
+h1,h2,h3,h4,h5,h6{text-align: center; font-weight: 600;}
+h3{font-size: 28px; line-height: 32px;}
+h4,h5,h6{font-size: 24px; line-height: 28px; font-weight: 400;}
+h5{font-size: 26px; line-height: 32px;}
+h6{font-size: 24px; line-height: 28px;}
+.blue{color: #00457c;}
+.white{color: #ffffff;}
+.green{color: #71b65a;}
+
+.main-wrap{overflow: hidden;}
+section, .btn-wrap{float: left; width: 100%;}
+.btn-wrap{text-align: center;}
+.common-wrap{max-width: 1240px; padding: 0 20px; margin: 0 auto; clear: both;}
+.btn, .submit-btn input{width: 245px; height: 56px; text-align: center; line-height: 54px; font-size: 22px; font-weight: 400; color: #ffffff; border: 1px solid transparent; border-radius: 5px; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;}
+.green-btn{background: #71b65a;}
+.green-btn:hover{border: 1px solid #71b65a; background: transparent; color: #ffffff;}
+.transparent-btn{border: 1px solid #ffffff; height: 52px; line-height: 50px; width: 300px;}
+.transparent-btn:hover{background: #ffffff; color: #333333;}
+
+/* //End common style */
+
+/* Beginning hero section style */
+.hero-section{background-size: cover; background-position: center center; padding-top: 115px; padding-bottom: 60px;}
+.hero-inner{max-width: 980px; text-align: center; color: #ffffff;}
+.hero-inner h5{padding-top: 35px; color: #99ccff;}
+.hero-inner ul{float: left; width: 100%; padding-top: 70px; text-align: center;}
+.hero-inner ul li{display: inline-block; padding: 0 40px 0 20px; /*width: 32.333333%;*/ text-align: left; position: relative;     font-size: 24px; line-height: 28px; margin: 5px 0;}
+.hero-inner ul li:before{position: absolute; left: 0; top: 10px; width: 8px; height: 8px; background: #298fe2; content: ""; border-radius: 20px;}
+.hero-inner .btn-wrap{padding-top: 90px;}
+.hero-inner h6{display: inline-block; margin-top: 40px; padding: 0 45px; position: relative;}
+.hero-inner h6:before{position: absolute; left: 0; top: 0; width: 30px; height: 30px; background: url(../imgs/satisfaction-guaranteed.gif) no-repeat center / cover; content: "";}
+
+.hero-section .green-btn{width: 300px;}
+
+/* //End hero section style */
+
+/* Beginning our service section style */
+.our-services-section{background: #e6edf6; padding: 53px 0 35px;}
+.services-inner h2{text-align: center;}
+.services-item-wrap{float: left; width: 100%; text-align: center;}
+.services-item{padding-top: 45px; text-align: center; width: 27.08333333333333%; margin: 0 2.916666666666667%; display: inline-block; vertical-align: top;}
+.services-item figure{max-width: 193px; margin: 0 auto; clear: both; overflow: hidden; border-radius: 50%;}
+.services-item figure img, .area-map img{width: 100%;}
+.services-item a{color: #334779; font-weight: 600; margin-top: 10px; position: relative;}
+.services-item a:before, .area-list ul li a:before, .services-inner p a:before{position: absolute; left: 0; bottom: 3px; width: 100%; height: 1px; background: #334779; content: ""; left: 50%; -webkit-transform: translate(-50%); -moz-transform: translate(-50%); transform: translate(-50%); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;}
+
+.services-item a:hover:before, .services-inner p a:hover:before{width: 0;}
+.services-inner p{float: left; width: 100%; padding-top: 60px;}
+.services-inner p a{color: #2626ff; position: relative;}
+.services-inner p a:before{background: #2626ff;}
+
+/* //End our service section style */
+
+/* Beginning austin section style */
+.austin-service-section{padding-top: 75px; padding-bottom: 60px;}
+.austin-service-inner{max-width: 1090px;}
+.austin-service-inner .section-lead{max-width: 670px;}
+.section-lead{margin: 0 auto; padding-top: 35px; font-size: 20px; line-height: 24px; text-align: center; font-weight: 400;}
+.area-wrap{float: left; width: 100%; padding-top: 55px;}
+.area-list{float: left; width: 46.66666666666667%;}
+.area-list ul{float: left; width: 100%; padding-top: 8px;}
+.area-list ul li{float: left; width: 50%; padding-left: 30px; position: relative; margin: 8px 0;}
+.area-list ul li:before{position: absolute; left: 0; top: 10px; width: 6px; height: 6px; border-radius: 50%; background: #333333; content: "";}
+.area-list ul li a{color: #333333; position: relative;}
+.area-list ul li a:before{background: #333333; width: 0;}
+.area-list ul li a:hover:before{width: 100%;}
+.area-map{float: right; width: 53.33333333333333%;}
+/* //End austin section style */
+
+/* Beginning why reliant pest section style */
+.why-reliant-pest-section{padding-top: 40px; padding-bottom: 30px; background-size: cover; background-position: center center;}
+.why-reliant-inner{max-width: 1000px; color: #ffffff;}
+.reliant-management-list{float: left; width: 100%; padding-top: 35px;}
+.reliant-management-list li{float: left; width: 50%; margin: 16px 0; line-height: 30px;}
+.reliant-management-list li:nth-child(odd){clear: both; padding-right: 20px;}
+.reliant-management-list li img{float: none; display: inline-block; width: 30px; vertical-align: middle;}
+.reliant-management-list li span{display: inline-block; width: -webkit-calc(100% - 30px); width: calc(100% - 35px); vertical-align: middle; padding-left: 20px;}
+.why-reliant-inner .btn-wrap{padding-top: 25px;}
+.why-reliant-inner .btn-wrap .btn{}
+/* //End why reliant pest section style */
+
+/* Beginning austin pest resoursces section style */
+.austin-pest-resources-section{padding-top: 55px; padding-bottom: 60px;}
+.resources-inner{max-width: 1020px;}
+.resources-inner figure{max-width: 130px; margin: 0 auto; clear: both;}
+.resources-inner figure img{width: 100%;}
+.resources-inner h3{padding-top: 25px;}
+
+.resources-list-wrap{float: left; width: 100%; padding-top: 35px; list-style-type: none; counter-reset: list;   -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;}
+.resources-list-wrap li{margin: 12px 0; list-style: none; -webkit-column-break-inside: avoid; -moz-column-break-inside:avoid; -moz-page-break-inside:avoid; page-break-inside: avoid; break-inside: avoid-column;}
+.resources-list-wrap li:before{width: 30px; text-align: right; content: counter(list) ")"; counter-increment: list; font-size: 18px; color: #333333; font-family: 'Montserrat', sans-serif; font-weight: 300; font-style: normal; display: inline-block;}
+.resources-list-wrap li a{width: -webkit-calc(100% - 30px); width: calc(100% - 30px); color: #0000ff; padding-left: 20px; text-decoration: underline; vertical-align: top;}
+.resources-list-wrap li a:hover{text-decoration: none;}
+/* //End austin pest resoursces section style */
+
+/* Beginning testimonial section style */
+.testimonial-section{background: #f7f7f7; padding: 45px 0;}
+.testimonial-inner{display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-flow: row wrap;}
+.testomonial-item{float: left; width: 30.66666666666667%; margin: 0 1.958333333333333%; background: #ffffff; padding: 22px 20px 30px;}
+.testomonial-item:nth-child(3n+1){margin-left: 0;}
+.testomonial-item:nth-child(3n+3){margin-right: 0;}
+.testomonial-item p, .testomonial-item cite{float: left; width: 100%; font-size: 17px; line-height: 24px; color: #000000; padding-top: 20px;}
+.testomonial-item cite{font-size: 18px; font-style: normal; font-weight: 400;}
+.review-star{float: left; width: 100%;}
+/* //End testimonial section style */
+
+/* Beginning unwanted pest section style */
+.unwanted-pest-section{margin-top: 60px; padding-top: 60px; padding-bottom: 60px; background: #01457c;}
+.unwanted-inner{color: #ffffff; text-align: center; max-width: 1020px;}
+.unwanted-inner h2{font-size: 32px;}
+.unwanted-inner p{color: #b7caf2; font-size: 22px; float: left; width: 100%; padding-top: 30px;}
+.unwanted-inner .btn-wrap{color: #b7caf2; font-size: 22px; float: left; width: 100%; padding-top: 30px;}
+/* //End unwanted pest section style */
+
+/* Beginning contact us section style */
+.contact-us-section{padding-top: 90px; padding-bottom: 110px;}
+.contact-us-inner{max-width: 850px;}
+.contact-form-wrap{float: left; width: 100%; padding-top: 55px;}
+.input-field-wrap{float: left; width: 41.97530864197531%; margin-right: 3.395061728395061%;}
+.input-wrap{float: left; width: 100%; margin: 8px 0;}
+.input-wrap input, textarea{float: left; width: 100%; height: 59px; border: 2px solid #bbbbbb; border-radius: 10px; padding: 18px; font-size: 20px; color: #b1bcc9; font-family: 'Montserrat', sans-serif; font-weight: 300; font-style: normal;}
+.input-wrap.textarea{width: 51.23456790123457%; margin-left: 3.395061728395061%;}
+textarea{height: 211px;}
+.submit-btn{float: left; width: 100%; padding-top: 36px; text-align: center;}
+.submit-btn input{background: #00457c; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 300; font-style: normal; cursor: pointer; border: 1px solid transparent;}
+.submit-btn input:hover{border: 1px solid #00457c; background: transparent; color: #00457c;}
+/* //End contact us section style */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== Houston ==== */
+.houston-content .hero-inner h5{color: #bfdfff;}
+.houston-content .hero-inner ul li:before{font-weight: 400; background-color: #ffffff;}
+.houston-content .austin-service-inner{max-width: 1240px;}
+.houston-content .austin-service-inner .section-lead{max-width: 700px;}
+.houston-content .area-list ul{column-count: 2;}
+.houston-content .area-list ul li{float: left; width: 100%;}
+.houston-content .area-list ul li:nth-child(14){margin-bottom: 0px;}
+/*.houston-content .reliant-management-list li:nth-child(odd){padding-right: 0px;}*/
+.houston-content .reliant-management-list li span{font-weight: 400;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 320px) {
+    .hero-inner h6{padding-left: 30px;}
+    .hero-inner h6:before{width: 20px; height: 20px; top: 5px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    input[type="text"],input[type="email"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    h1{font-size: 30px; line-height: 38px;}
+    h2, .unwanted-inner h2{font-size: 26px; line-height: 32px;}
+    h3{font-size: 24px; line-height: 30px;}
+    h5{font-size: 22px; line-height: 28px;}
+    h6{font-size: 20px; line-height: 26px;}
+    
+    .hero-section{padding-top: 50px;}
+    .hero-inner h5{padding-top: 25px;}
+    .hero-inner ul, .contact-form-wrap{padding-top: 30px;}
+    .hero-inner ul li{float: left; width: 100%; padding-right: 0;}
+    .hero-inner .btn-wrap{padding-top: 35px;}
+    .hero-section .green-btn, .transparent-btn{width: 270px;}
+    .hero-inner h6{padding-right: 0; margin-top: 30px;}
+    
+    .our-services-section, .austin-pest-resources-section, .unwanted-pest-section, .contact-us-section, .contact-us-section{padding-top: 40px;}
+    .services-item{width: 100%; float: left; margin: 0; padding-top: 30px;}
+    .services-item figure{max-width: 140px;}
+    .services-inner p, .area-wrap{padding-top: 30px;}
+    .austin-service-section{padding-top: 40px; padding-bottom: 30px;}
+    .section-lead{padding-top: 20px; font-size: 18px;}
+    .area-list{width: 100%; padding-top: 30px;}
+    .area-map{width: 100%;}
+    
+    .reliant-management-list{padding-top: 20px;}
+    .reliant-management-list li{width: 100%; margin: 10px 0;}
+    .reliant-management-list li:nth-child(odd){padding-right: 0;}
+    
+    .austin-pest-resources-section, .unwanted-pest-section, .contact-us-section, .contact-us-section{padding-bottom: 30px;}
+    .resources-list-wrap{-moz-column-count: 1; -moz-column-gap: 0px; -webkit-column-count: 1; -webkit-column-gap: 0px; column-count: 1; column-gap: 0px; padding-top: 30px;}
+    
+    .testomonial-item, .testomonial-item:nth-child(3n+1), .testomonial-item:nth-child(3n+3){width: 100%; max-width: 370px; float: none; margin: 30px auto 0; clear: both; overflow: hidden; padding-bottom: 20px;}
+    .testomonial-item:first-child{margin-top: 0;}
+    
+    .input-field-wrap, .input-wrap.textarea{width: 100%; margin: 0;}
+    .input-wrap input, textarea{height: 45px; font-size: 16px; line-height: 22px; padding: 8px 10px;}
+    textarea{height: 130px;}
+    .submit-btn{padding-top: 25px;}
+    
+    
+    
+    
+    
+    .houston-content .area-list ul li{padding-left: 15px;}
+    
+    
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    .hero-inner ul li{float: none; width: auto; padding-right: 20px}
+
+
+}
+
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    input[type="text"],input[type="email"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    h1{font-size: 40px;}
+    .hero-inner ul{padding-top: 45px;}
+    .hero-inner .btn-wrap{padding-top: 60px;}
+    .services-item{width: 26.083333%;}
+    
+    .services-item a:before /*.area-list ul li a:before, .services-inner p a:before*/{opacity: 0;}
+    .services-item a/*, .area-list ul li a:before, .services-inner p a:before*/{text-decoration: underline;}
+	
+}
+
+
+/*		Tablet Layout: 1024px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    input[type="text"],input[type="email"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+	
+    
+    
+}
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+}
+
+
+
+
+
+
+

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>Retiant | Home</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="scripts/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="scripts/common-scripts.js"></script>
+    </head>
+
+    <body>
+        <div class="main-wrap">
+            <!-- Beginnig main content section 
+            ===================================== -->
+            <section class="main-content-section houston-content">
+               <!-- Beginning main hero section-->
+                <section class="hero-section" style="background-image: url(imgs/kids-pest-free-yard.jpg);">
+                    <div class="hero-inner common-wrap clear">
+                        <h1>Houston Pest &amp; Mosquito Control</h1>
+                        <h5>Proudly Serving The Greater Houston, TX Area Since 2008</h5>
+                        <ul>
+                            <li>affordable rates</li>
+                            <li>effective treatments</li>
+                            <li>experienced technicians</li>
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="#" class="btn green-btn">Get a Free Quote</a>
+                        </div>
+                        <h6>Satisfaction Guaranteed!</h6>
+                    </div>
+                </section>
+                <!-- //End main hero section -->
+                
+                <!-- Beginning our services section -->
+                <section class="our-services-section">
+                    <div class="services-inner common-wrap clear">
+                        <h2 class="blue">Our Services</h2>
+                        <div class="services-item-wrap">
+                            <div class="services-item">
+                                <figure><img src="imgs/roach-killer.gif" alt=""></figure>
+                                <a href="#">Pest Control</a>
+                            </div>
+                            <div class="services-item">
+                                <figure><img src="imgs/mosquito-spray.gif" alt=""></figure>
+                                <a href="#">Mosquito Control</a>
+                            </div>
+                            <div class="services-item">
+                                <figure><img src="imgs/termite-treatment.gif" alt=""></figure>
+                                <a href="#">Termite Control</a>
+                            </div>
+                        </div>
+                        <p>Reliant Pest Management is ready to help defend your home against the many annoying and dangerous pests found here in the Houston, TX area. We pride ourselves on providing the highest quality pest control services in the greater Houston area. Our technicians are well trained and knowledgeable, and we use the most effective tools and techniques to keep pests away. Our objective is to protect the two things that matter most to you - your family and home. <a href="#">Read more ></a> </p>
+                    </div>
+                </section>
+                <!-- //End services section -->
+                
+                <!-- Beginning austin service section -->
+                <section class="austin-service-section">
+                    <div class="austin-service-inner common-wrap clear">
+                        <h2 class="blue">Houston, TX Service Area</h2>
+                        <div class="section-lead clear">
+                            Below is a look at some of the cities we offer our professional mosquito, pest, and termite control to in the greater Houston, TX area.
+                        </div>
+                        <div class="area-wrap">
+                            <div class="area-map">
+                                <img src="imgs/houston-control-area.jpg" alt="">
+                            </div>
+                            <div class="area-list">
+                                <ul>
+                                    <li><a href="#">Alvin</a></li>
+                                    <li><a href="#">Baytown</a></li>
+                                    <li><a href="#">Clear Lake</a></li>
+                                    <li><a href="#">Conroe</a></li>
+                                    <li><a href="#">Cypress</a></li>
+                                    <li><a href="#">Friendswood</a></li>
+                                    <li><a href="#">Houston</a></li>
+                                    <li><a href="#">Humble</a></li>
+                                    <li><a href="#">Katy</a></li>
+                                    <li><a href="#">Kingwood</a></li>
+                                    <li><a href="#">Klein</a></li>
+                                    <li><a href="#">League City</a></li>
+                                    <li><a href="#">Magnolia</a></li>
+                                    <li><a href="#">Missouri City</a></li>
+                                    <li><a href="#">Needville</a></li>
+                                    <li><a href="#">Pasadena</a></li>
+                                    <li><a href="#">Pearland</a></li>
+                                    <li><a href="#">Porter</a></li>
+                                    <li><a href="#">Richmond</a></li>
+                                    <li><a href="#">Rosenberg</a></li>
+                                    <li><a href="#">Rosenburg</a></li>
+                                    <li><a href="#">Spring</a></li>
+                                    <li><a href="#">Sugar Land</a></li>
+                                    <li><a href="#">Texas City</a></li>
+                                    <li><a href="#">The Woodlands</a></li>
+                                    <li><a href="#">Tomball</a></li>
+                                    <li><a href="#">Willis</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- //End austin service section -->
+                
+                <!-- Beginning why reliant pest section -->
+                <section class="why-reliant-pest-section" style="background-image: url(imgs/exterminator-spray-bg.jpg);">
+                    <div class="why-reliant-inner common-wrap clear">
+                        <h2>Why Reliant Pest Management?</h2>
+                        <div class="section-lead clear">Here are just a few of the many reasons to choose Reliant for all of your Houston pest control needs.</div>
+                        <ul class="reliant-management-list">
+                            <li>
+                                <img src="imgs/friendly-lady.gif" alt="">
+                                <span>Friendly staff</span>
+                            </li>
+                            <li>
+                                <img src="imgs/free-pest-inspection.gif" alt="">
+                                <span>Free inspections</span>
+                            </li>
+                            <li>
+                                <img src="imgs/prompt-service.gif" alt="">
+                                <span>Prompt service</span>
+                            </li>
+                            <li>
+                                <img src="imgs/trained-technicians.gif" alt="">
+                                <span>Highly trained &amp; knowledgeable technicians</span>
+                            </li>
+                            <li>
+                                <img src="imgs/affordable-pest-services.gif" alt="">
+                                <span>Affordable and transparent pricing</span>
+                            </li>
+                            <li>
+                                <img src="imgs/guaranteed-results.gif" alt="">
+                                <span>Guaranteed results</span>
+                            </li>
+                            <li>
+                                <img src="imgs/tools-equipment.gif" alt="">
+                                <span>State-of-the-art tools and treatments</span>
+                            </li>
+                            <li>
+                                <img src="imgs/mosquito-pest-treatments.gif" alt="">
+                                <span>Comprehensive treatments with lasting results</span>
+                            </li>
+                            <li>
+                                <img src="imgs/licensed-insured.gif" alt="">
+                                <span>Licensed, bonded, &amp; insured</span>
+                            </li>
+                            <li>
+                                <img src="imgs/home-pest-control.gif" alt="">
+                                <span>Customized solutions for your home</span>
+                            </li>
+                            
+                            
+                            
+                            
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="#" class="btn transparent-btn">Get a Free Quote</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- //End why reliant pest section -->
+                
+                <!-- Beginning austin pest resources section -->
+                <section class="austin-pest-resources-section">
+                    <div class="resources-inner common-wrap clear">
+                        <figure class="clear"><img src="imgs/spider-extermination.gif" alt=""></figure>
+                        <h3 class="green">Houston Mosquito &amp; Pest Control Resources</h3>
+                        <ol class="resources-list-wrap">
+                            <li><a href="#">EPA Pest Control Tips</a></li>
+                            <li><a href="#">Test Pest Control Association</a></li>
+                            <li><a href="#">Harvey’s gone. Here come the mosquitoes</a></li>
+                            <li><a href="#">Summer Brings Pest Control to Forefront</a></li>
+                            <li><a href="#">Foods That Repel Mosquitoes</a></li>
+                            <li><a href="#">Why Do Mosquitoes Like to Bite You More</a></li>
+                            <li><a href="#">Top 10 U.S. Cities for Pest Infestations</a></li>
+                            <li><a href="#">5 Mosquito Bit Prevention Tips</a></li>
+                            <li><a href="#">Swatting at Mosquitoes</a></li>
+                            <li><a href="#">Ways to Prevent Termites From Infesting Your Home</a></li>
+                            <li><a href="#">Tips to Prevent Mosquito Bites</a></li>
+                            <li><a href="#">Mosquito Samples From The Woodlands Test Positive for West Nile</a></li>
+                        </ol>
+                    </div>
+                </section>
+                <!-- //End austin pest resources section -->
+                
+                <!-- Beginning testimonial section -->
+                <section class="testimonial-section">
+                    <div class="testimonial-inner common-wrap clear">
+                        <div class="testomonial-item">
+                            <div class="review-star">
+                                <img src="imgs/review-star.png" alt="">
+                            </div>
+                            <p>Showed up promptly, very professional and explained the process in full.  Mack did a great job in spraying the entire house and was very thorough in his work.  Glad to have Reliant fighting the pests off at my house!  Great work, and highly recommended.</p>
+                            <cite>Chance Justice</cite>
+                        </div>
+                        <div class="testomonial-item">
+                            <div class="review-star">
+                                <img src="imgs/review-star.png" alt="">
+                            </div>
+                            <p>I love Reliant.  I am extra picky and they accommodate my finickiness.  I am not a native Texan, Justin’s willingness to educate me to better prevent issues is wonderful.  Justin is kind and very respectful.  I can’t say enough nice things about this company!</p>
+                            <cite>Heather Baker</cite>
+                        </div>
+                        <div class="testomonial-item">
+                            <div class="review-star">
+                                <img src="imgs/review-star.png" alt="">
+                            </div>
+                            <p>I have been a customer for over a year and have never had any issues with Reliant. Will Leshikar came out this weekend and gave his professional expertise on what we should do in the future to help keep any pests out. He was very helpful and professional.</p>
+                            <cite>Daniel Cortes</cite>
+                        </div>
+                    </div>
+                </section>
+                <!-- //End testimonial section -->
+                
+                <!-- Biginning rid unwanted section -->
+                <section class="unwanted-pest-section">
+                    <div class="unwanted-inner common-wrap clear">
+                        <h2>Get Rid of Unwanted Pests Today!</h2>
+                        <p>For the best pest control services in the Houston, TX area, please call us today at (281) 741-8830 or request a free quote online</p>
+                        <div class="btn-wrap">
+                            <a href="#" class="btn green-btn">Get a Free Quote</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- //End rid unwanted section -->
+                
+                <!-- Beginning contact us section -->
+                <section class="contact-us-section">
+                    <div class="contact-us-inner common-wrap clear">
+                        <h2>Questions? Contact Us!</h2>
+                        <form action="#" method="post">
+                            <div class="contact-form-wrap">
+                                <div class="input-field-wrap">
+                                    <div class="input-wrap">
+                                        <input type="text" value="Name">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="email" value="Email">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="text" value="Phone">
+                                    </div>
+                                </div>
+                                <div class="input-wrap textarea">
+                                    <textarea>Message</textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <input type="submit" value="Send Email">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <!-- //End contact us section -->
+            </section>
+        </div>
+    </body>
+</html>
